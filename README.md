@@ -28,15 +28,13 @@ This project is ideal for schools, colleges, and training centers to streamline 
 
 ## 📂 Project Structure
 
-```mermaid
-graph TD
-    A[OnlineExaminationSystem] --> B[src]
-    B --> B1[LoginPage.java<br/>User login interface]
-    B --> B2[ExamPage.java<br/>Question navigation and timer]
-    B --> B3[ResultPage.java<br/>Displays score]
-    A --> C[README.md<br/>Project documentation]
-    A --> D[LICENSE<br/>License file (if applicable)]
-```
+OnlineExaminationSystem/
+│── src/
+│ ├── LoginPage.java # User login interface
+│ ├── ExamPage.java # Question navigation and timer
+│ ├── ResultPage.java # Displays score
+│── README.md # Project documentation
+│── LICENSE # License file (if applicable)
 
 ---
 
